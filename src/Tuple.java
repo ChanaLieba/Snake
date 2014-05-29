@@ -1,9 +1,8 @@
+
 public class Tuple { 
-	  public  int x; 
-	  public  int y; 
-	  public int xf;
-	  public int yf;
-	  
+	  private int x; 
+	  private  int y; 
+
 	  public Tuple(int x, int y) { 
 	    this.x = x; 
 	    this.y = y; 
@@ -18,12 +17,12 @@ public class Tuple {
 	  public int getY(){
 		  return y;
 	  }
-	  public int getXf(){
-		  return xf;
-	  }
-	  public int getYf(){
-		  return yf;
-	  }
-		  
-		  
+	public void setX(int x) {
+		this.x = x;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+
+
 } 
